@@ -18,6 +18,11 @@ public class Demo_ThreadPool {
 		try {
 			for (int i = 0; i < 30; i++) {
 				threadPool.execute(() -> {System.out.println(Thread.currentThread().getName()+"\t 办理业务");});
+//				Future<Integer> submit = threadPool.submit(() -> {
+//					return 1024;
+//				});
+//				Integer integer = submit.get();
+//				System.out.println(integer);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
