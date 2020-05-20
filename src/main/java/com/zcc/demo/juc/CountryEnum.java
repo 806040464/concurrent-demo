@@ -1,4 +1,4 @@
-package com.zcc.demo;
+package com.zcc.demo.juc;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

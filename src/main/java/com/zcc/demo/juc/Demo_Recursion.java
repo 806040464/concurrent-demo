@@ -1,4 +1,4 @@
-package com.zcc.demo;
+package com.zcc.demo.juc;
 
 /**
  * 有n个台阶，一次只能走1步/2步，共多少种走法？

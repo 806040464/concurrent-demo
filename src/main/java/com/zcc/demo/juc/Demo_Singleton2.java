@@ -1,4 +1,4 @@
-package com.zcc.demo;
+package com.zcc.demo.juc;
 
 /**
  * 静态内部类懒汉式单例
